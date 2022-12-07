@@ -47,7 +47,6 @@ class Directory:
             self.count += dirs.count
         if self.size <= 100000:
             self.count += self.size
-        # print("Directory: ", self.name, " Size: ", self.size)
         return self.count    
 
     # PART 2:
@@ -67,7 +66,8 @@ class Directory:
         Returns
         -------
         int
-            The size of the directory with the lowest sufficient size to be deleted
+            The size of the directory with the lowest sufficient size to be deleted.
+            Returns -1 if there is no single directory that satisfies the requirement.
         """
         for key in self.subdirectories.keys():
             dirs = self.subdirectories[key]
@@ -75,6 +75,9 @@ class Directory:
             self.minimum = min(self.minimum, dirs.minimum)
         if self.size >= min_to_delete:
             self.minimum = min(self.minimum, self.size)
+
+        if self.minimum == float('inf'):
+            return -1
         return self.minimum
              
 class Solution:
