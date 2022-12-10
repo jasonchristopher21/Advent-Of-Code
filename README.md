@@ -25,3 +25,5 @@ Listed below are my submissions for the [Advent of Code](https://adventofcode.co
 - Day 8: Treetop Tree House
     - [Part 1 [Python]](2022/Day8/treetop_tree_house_1.py)
     - [Part 2 [Python]](2022/Day8/treetop_tree_house_2.py)
+- Day 9: Rope Bridge
+    - [Part 1 [Python]](2022/Day9/rope_bridge_1.py)
