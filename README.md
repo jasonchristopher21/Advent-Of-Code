@@ -31,3 +31,4 @@ Listed below are my submissions for the [Advent of Code](https://adventofcode.co
     - [Part 1 and 2 [Python]](2022/Day10/cathode_ray_tube.py)
 - Day 11: Monkey in the Middle
     - [Part 1 [Python]](2022/Day11/monkey_in_the_middle_1.py)
+    - [Part 2 [Python]](2022/Day11/monkey_in_the_middle_2.py)
