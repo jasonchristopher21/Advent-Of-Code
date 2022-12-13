@@ -29,3 +29,5 @@ Listed below are my submissions for the [Advent of Code](https://adventofcode.co
     - [Part 1 [Python]](2022/Day9/rope_bridge_1.py)
 - Day 10: Cathode Ray Tube
     - [Part 1 and 2 [Python]](2022/Day10/cathode_ray_tube.py)
+- Day 11: Monkey in the Middle
+    - [Part 1 [Python]](2022/Day11/monkey_in_the_middle_1.py)
